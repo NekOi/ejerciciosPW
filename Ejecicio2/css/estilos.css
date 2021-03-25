@@ -31,17 +31,17 @@ ol{
 
 
 #uno,#dos{
-    background-color: gold;
     width: 100px;
     height: 100px;
     padding: 40px;
     box-sizing: border-box;
     border:1px saddlebrown;
+    margin-bottom: 10px;
 }
 
 #uno{
     background-color: gold;
-    margin-bottom: 10px;
+    
 
 }
 
