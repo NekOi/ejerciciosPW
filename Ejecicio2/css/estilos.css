@@ -1,0 +1,53 @@
+h1{
+    color:rgb(118, 199, 247);
+}
+
+p{
+    color:rgb(48, 218, 32);
+}
+
+
+#primero{
+    font-weight: bold;
+    color:darkviolet;
+}
+
+
+.destacado{
+    background-color: dimgrey;
+}
+
+.centrado{
+    text-align: center;
+}
+
+ul{
+    list-style-type: circle;
+}
+ol{
+    list-style-type: lower-roman;
+}
+
+
+
+#uno,#dos{
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    box-sizing: border-box;
+    border:1px saddlebrown;
+}
+
+#uno{
+    background-color: gold;
+    margin-bottom: 10px;
+
+}
+
+#dos{
+    background-color: rgb(255, 174, 0);
+
+}
+
+
