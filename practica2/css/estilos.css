@@ -1,0 +1,75 @@
+*{/*con esto reconfiguro la visual de la pagina, asi no me hace un borde raro
+    que define el navegador que esoty usando y mantiene mi estilo intacto*/
+    padding: 0;
+    margin: 0;
+    /*esto evita que se desproporcione la pagina*/
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #303030;
+    font-family: Arial, Helvetica, sans-serif;
+    color: cornsilk;
+}
+
+
+nav{
+    width: 20%;
+    /*en el alto no se puede usar el %, como en el ancho, 
+    para esto se usa viewport height "vh"*/
+    height: 100vh; 
+    float: left;
+    /*regla del reloj: top,right,bottom,left*/
+    padding: 5% 0 0 3%;
+  
+}
+
+/*la pariencia, dentro de los li, dentro de los ul, dentro del nav,
+ sea como lo configuro aqui*/
+nav ul li a{
+    color: cornsilk;
+    /*con non la el aspecto hipervinculo (la linea de abajo)
+    se quita*/
+    text-decoration: none;
+}
+
+/*seudoclase*/
+nav ul li a:hover{
+    color: gray;
+}
+
+nav ul{
+    /*con esto se le quitan a los hipervinculos los puntos a los costados*/
+    list-style-type: none;
+
+}
+
+
+section{
+    width: 78%;
+    float: left;
+
+}
+
+#azul, #amarillo, #naranja, #rojo{
+    height: 25vh;
+    padding: 5% 15% 0% 15%;
+    font-size: 0.8em;
+}
+
+#azul{
+    background-color:#00D9F3 ;
+}
+
+#amarillo{
+    background-color:#FFDF00 ;
+}
+
+#naranja{
+    background-color: #FF7B00;
+}
+
+#rojo{
+    background-color: #FF000A;
+}
